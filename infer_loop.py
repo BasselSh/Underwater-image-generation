@@ -13,7 +13,7 @@ def parse_args():
     parser.add_argument('lavis_env', type=str, help='Path to the lavis environment')
     parser.add_argument('--sd-model', type=str, default='stable-diffusion-v1-5/stable-diffusion-v1-5', help='Path to the model file to be processed')
     parser.add_argument('--lora_path', type=str, default='sd-model-finetuned-lora/checkpoint-6000', help='Path to the lora file to be processed')
-    parser.add_argument('--num_images', type=int, default=10, help='Number of images to be generated')
+    parser.add_argument('--num_images', type=int, default=4, help='Number of images to be generated')
     parser.add_argument('--num_attempts', type=int, default=4, help='Number of attempts to generate an image')
     return parser.parse_args()
 
