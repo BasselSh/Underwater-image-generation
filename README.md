@@ -30,6 +30,13 @@ An example generated from the prompt: **An underwater view of a pipe**
 Two conda environments are required. The reason is the conflict of transformers versions between lavis and diffusers.
 **Note:** Later I will use BLIP2 from HuggingFace to not have to install two environments.
 
+### Requirements for underwater environment:
+- Python 3.11
+- Pytorch 2.6.0+cu118
+- Transformers 4.48.3
+- Diffusers 0.33.0.dev0
+- Sentence Transformers 3.4.1
+
 ```bash
 conda create -n blip python=3.11
 conda activate blip
